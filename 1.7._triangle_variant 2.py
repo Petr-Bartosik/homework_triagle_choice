@@ -97,10 +97,6 @@ def print_shape(choice, size):
     print_frame(size)
 
 def main():
-    print("""
-Vítejte v programu pro kreslení tvarů!
-Můžete si vybrat z následujících možností:
-
     +---+ +---+ +---+ +---+ +---+
     |\\  | |  /| |\\  /| |\\/\\| |/\\ |
     | \\ | | / | | \\/ | |/  \\| |  \\|
