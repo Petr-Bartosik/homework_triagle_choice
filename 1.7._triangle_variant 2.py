@@ -97,22 +97,7 @@ def print_shape(choice, size):
     print_frame(size)
 
 def main():
-    +---+ +---+ +---+ +---+ +---+
-    |\\  | |  /| |\\  /| |\\/\\| |/\\ |
-    | \\ | | / | | \\/ | |/  \\| |  \\|
-    |  \\| |/  | |    | |    | |   \\
-    +---+ +---+ +---+ +---+ +---+
-      a     b     c     d     e
 
-    +---+ +---+ +---+ +---+ +---+
-    |/\\ | |\\   | |  /| |  \\ | |   \\
-    |  \\| | \\  | | / | |   \\| |    \\
-    |   \\| |  \\| |/  | |    | |     \\
-    +---+ +---+ +---+ +---+ +---+
-      f     g     h     i     j
-
-
-    """)
     while True:
         print("Vyberte tvar (a-j) nebo zadejte 'k' pro ukončení:")
         choice = input("Zadejte volbu: ").lower()
